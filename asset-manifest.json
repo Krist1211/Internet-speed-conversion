@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Internet-speed-conversion/static/css/main.a399f7e7.css",
-    "main.js": "/Internet-speed-conversion/static/js/main.1ecae0d8.js",
+    "main.js": "/Internet-speed-conversion/static/js/main.5d51b815.js",
     "static/js/787.13d76ca7.chunk.js": "/Internet-speed-conversion/static/js/787.13d76ca7.chunk.js",
     "static/media/logo.svg": "/Internet-speed-conversion/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Internet-speed-conversion/index.html",
     "main.a399f7e7.css.map": "/Internet-speed-conversion/static/css/main.a399f7e7.css.map",
-    "main.1ecae0d8.js.map": "/Internet-speed-conversion/static/js/main.1ecae0d8.js.map",
+    "main.5d51b815.js.map": "/Internet-speed-conversion/static/js/main.5d51b815.js.map",
     "787.13d76ca7.chunk.js.map": "/Internet-speed-conversion/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a399f7e7.css",
-    "static/js/main.1ecae0d8.js"
+    "static/js/main.5d51b815.js"
   ]
 }
