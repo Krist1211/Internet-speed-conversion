@@ -13,7 +13,8 @@ const SpeedConverter = () => {
   const handleInputChange = (event) => {
     
     // STEP 3-1: 取出使用者輸入的值
-    const value = event.target.value;
+    // const value = event.target.value;
+    const { value } = event.target;
     
     // STEP 3-2: 將這個值設定到 state 中
     setInputValue(value);
@@ -57,17 +58,17 @@ const SpeedConverter = () => {
         title: 'GOOD',
         backgroundColor: '#1b82f1',
       };
-    } else if (inputValue >= 100) {
+    } else {
       criteria = {
         title: 'FAST',
         backgroundColor: '#13d569',
       };
     }
     return (
-  <div className="card-footer" style={{backgroundColor: criteria.backgroundColor,}}>
-    {criteria.title}
-  </div>
-);
+      <div className="card-footer" style={{backgroundColor: criteria.backgroundColor,}}>
+        {criteria.title}
+      </div>
+    );
   };
   
   return (
